@@ -1,10 +1,10 @@
 clc;clear 
 Location=[];
-Location(:,1)=xlsread('计算数据.xlsx','sheet13','b2:b23');
-Location(:,2)=xlsread('计算数据.xlsx','sheet13','c2:c23');
-TW=xlsread('计算数据.xlsx','sheet13','e2:f23');
-q=xlsread('计算数据.xlsx','sheet13','d2:d23');
-workT=xlsread('计算数据.xlsx','sheet13','g2:g23');
+Location(:,1)=xlsread('Data.xlsx','sheet13','b2:b23');
+Location(:,2)=xlsread('Data.xlsx','sheet13','c2:c23');
+TW=xlsread('Data.xlsx','sheet13','e2:f23');
+q=xlsread('Data.xlsx','sheet13','d2:d23');
+workT=xlsread('Data.xlsx','sheet13','g2:g23');
 n=1:size(Location,1)-1;
 Q=10;
 PAIXU=12;
